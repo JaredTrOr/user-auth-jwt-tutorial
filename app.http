@@ -1,0 +1,19 @@
+GET http://localhost:3000/
+
+### REGISTER
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username" : "JaredTrOr",
+    "password" : "123456"
+}
+
+### LOGIN
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "JaredTrOr",
+    "password" : "123456"
+}
